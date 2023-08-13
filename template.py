@@ -18,7 +18,7 @@ list_of_file=[ ".github/workflows/.gitkeep",
             f"src/{project_name}/constants/__init__.py",
             "config/config.yaml",
             "dvc.yaml", #for mlops tools
-            "parmas.yaml",
+            "params.yaml",
             "app.py",
             "main.py",
             "requirements.txt",
