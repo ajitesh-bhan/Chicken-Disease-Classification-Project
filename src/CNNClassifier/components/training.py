@@ -2,6 +2,7 @@ import os
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
+#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import time
 from CNNClassifier.entity import TrainingConfig
 from pathlib import Path
