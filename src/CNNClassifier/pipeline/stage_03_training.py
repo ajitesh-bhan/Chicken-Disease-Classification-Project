@@ -27,7 +27,7 @@ if __name__ == '__main__' :
     try:
         logger.info(f'>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
         logger.info(f'><<<<<Stage started {Stage_Name} ')    
-        obj= Training()    
+        obj= Training_Pipeline()    
         obj.main()
         logger.info(f'<<<stage {Stage_Name} completed')
 
